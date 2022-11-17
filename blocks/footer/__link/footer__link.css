@@ -1,0 +1,19 @@
+.footer__link {
+    color: white;
+    text-decoration: none;
+    margin-right: 18px;
+  }
+  
+  .footer__link:hover {
+      opacity: 0.8;
+      -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+      -webkit-transition: all 0.5s linear;
+      transition: all 0.5s linear;
+  }
+  
+  @media screen and (max-width: 750px) {
+    .footer__link {
+      margin-right: 0;
+      margin-bottom: 148px;
+    }
+  }

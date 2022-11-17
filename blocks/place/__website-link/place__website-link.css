@@ -1,0 +1,16 @@
+.place__website-link {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    text-decoration: underline;
+    color: #FFFFFF;
+}
+
+.place__website-link:hover {
+    opacity: 0.8;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+    -webkit-transition: all 0.5s linear;
+    transition: all 0.5s linear;
+    
+}
