@@ -1,29 +1,26 @@
 .lead__subtitle {
-    max-width: 640px;
-    margin: 0 auto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 30px;
-    line-height: 36px;
-    text-align: center;
-    color: white;
-
+  max-width: 640px;
+  margin: 0 auto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 36px;
+  text-align: center;
+  color: white;
 }
 
-@media screen and (max-width: 730px) 
-and (min-width: 461px) {
-    .lead__subtitle {
-        max-width: 360px;
-        font-size: 18px;
-        line-height: 20px;
-    }
+@media screen and (max-width: 730px) and (min-width: 461px) {
+  .lead__subtitle {
+    max-width: 360px;
+    font-size: 18px;
+    line-height: 20px;
+  }
 }
 
-@media screen and (max-width: 460px) 
-and (min-width: 320px) {
-    .lead__subtitle {
-        font-size: 16px;
-        line-height: 20px;
-        max-width: 288px;
-    }
+@media screen and (max-width: 460px) and (min-width: 320px) {
+  .lead__subtitle {
+    font-size: 16px;
+    line-height: 20px;
+    max-width: 288px;
+  }
 }

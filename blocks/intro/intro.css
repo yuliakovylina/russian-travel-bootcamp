@@ -1,26 +1,25 @@
 .intro {
-    margin-left: 148px;
-    max-width: 690px;
-
+  margin-left: 148px;
+  max-width: 690px;
 }
 @media screen and (max-width: 1024px) {
-    .intro {
-        margin-left: 48px;
-        margin-right: 48px;
-    }
+  .intro {
+    margin-left: 48px;
+    margin-right: 48px;
+  }
 }
 
 @media screen and (max-width: 768px) {
-    .intro {
-       max-width: 720px;
-       margin-left: 24px;
-       margin-right: 24px;
-
-    }
+  .intro {
+    max-width: 720px;
+    margin-left: 24px;
+    margin-right: 24px;
+  }
 }
 
 @media screen and (max-width: 320px) {
-    .intro {
-       margin-left: 16px;
-       margin-right: 16px;
-    }}
+  .intro {
+    margin-left: 16px;
+    margin-right: 16px;
+  }
+}

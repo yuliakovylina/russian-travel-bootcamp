@@ -1,52 +1,51 @@
 @import url(./__title/cover__title.css);
 
 .cover {
-    min-height: 740px;
-    background-image: url(../../images/__background.jpg);
-    background-size: cover;
-    background-position: center;
-    position: relative;
-    margin: 92px 48px 92px;
-    z-index: 1;
-    
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
+  min-height: 740px;
+  background-image: url(../../images/__background.jpg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  margin: 92px 48px 92px;
+  z-index: 1;
+
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 @media screen and (max-width: 1160px) {
-    .cover {
-        margin: 88px 0 88px;
-        min-height: 640px;
-
-    }
+  .cover {
+    margin: 88px 0 88px;
+    min-height: 640px;
+  }
 }
 
 @media screen and (max-width: 980px) {
-    .cover {
-        min-height: 480px;
-        margin: 88px 0 88px;
-    }
+  .cover {
+    min-height: 480px;
+    margin: 88px 0 88px;
+  }
 }
 
 @media screen and (max-width: 700px) {
-    .cover {
-        min-height: 360px;
-    }
+  .cover {
+    min-height: 360px;
+  }
 }
 
 @media screen and (max-width: 460px) {
-    .cover {
-        min-height: 200px;
-    }
+  .cover {
+    min-height: 200px;
+  }
 }

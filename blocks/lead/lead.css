@@ -1,29 +1,29 @@
-.lead { 
-    display: flex;
-    flex-direction: column;
-    margin-left: 148px;
-    margin-right: 148px;
-    margin-bottom: 92px;
+.lead {
+  display: flex;
+  flex-direction: column;
+  margin-left: 148px;
+  margin-right: 148px;
+  margin-bottom: 92px;
 }
 
 @media screen and (max-width: 1024px) {
-    .lead {
-        margin-left: 48px;
-        margin-right: 48px;
-    }
+  .lead {
+    margin-left: 48px;
+    margin-right: 48px;
+  }
 }
 
 @media screen and (max-width: 1023px) {
-    .lead {
-        margin-left: 0;
-        margin-right: 0;
-        margin-bottom: 88px;
-    }
+  .lead {
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 88px;
+  }
 }
 @media screen and (max-width: 767px) {
-    .lead {
-        margin-left: 2px;
-        margin-right: 2px;
-        margin-bottom: 64px;
-    }
+  .lead {
+    margin-left: 2px;
+    margin-right: 2px;
+    margin-bottom: 64px;
+  }
 }
