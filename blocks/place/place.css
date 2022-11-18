@@ -1,13 +1,3 @@
-@import url('./__main/place__main.css');
-@import url('./__title/place__title.css');
-@import url('./__image/place__image.css');
-@import url('./__description/place__description.css');
-@import url('./__website/place__website.css');
-@import url('./__website-link/place__website-link.css');
-@import url('./__url-heading/place__url-heading.css');
-@import url('./__paragraph/place__paragraph.css');
-@import url('./__paragraphs/place__paragraphs.css');
-
 .place {
     display: -webkit-box;
     display: -ms-flexbox;
