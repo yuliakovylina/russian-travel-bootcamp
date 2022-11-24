@@ -1,29 +1,27 @@
 .place__paragraphs {
-  margin-left: 40px;
-  margin-right: 0;
+    margin: 0 0 0 40px;
 }
 
 @media screen and (max-width: 1024px) {
-  .place__paragraphs {
-    margin-left: 32px;
-  }
+    .place__paragraphs {
+        margin:  0 0 0 32px;
+    }
 }
 
 @media screen and (max-width: 768px) {
-  .place__paragraphs {
-    margin-left: 28px;
-  }
+    .place__paragraphs {
+        margin: 0 0 0 28px;
+    }
 }
 
 @media screen and (max-width: 630px) {
-  .place__paragraphs {
-    margin-top: 32px;
-    margin-left: 0;
-  }
+    .place__paragraphs {
+        margin: 32px 0 0;
+    }
 }
 
-@media screen and (max-width: 374px) {
-  .place__paragraph {
-    margin: 0 16px 0;
-  }
+@media screen and (max-width: 370px) {
+    .place__paragraphs {
+        margin: 32px 16px 0;
+    }
 }

@@ -6,12 +6,13 @@
   text-decoration-line: none;
   color: #ffffff;
   margin-left: 18px;
+  opacity: 1;
+  -webkit-transition: all 0.5s linear;
+  transition: all 0.5s linear;
 }
 
 .header__lang-link:hover {
   opacity: 0.8;
-  -webkit-transition: all 0.5s linear;
-  transition: all 0.5s linear;
 }
 
 @media screen and (max-width: 450px) {

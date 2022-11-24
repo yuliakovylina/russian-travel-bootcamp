@@ -5,10 +5,11 @@
   line-height: 22px;
   text-decoration: underline;
   color: #ffffff;
+  opacity: 1;
+  -webkit-transition: all 0.5s linear;
+  transition: all 0.5s linear;
 }
 
 .place__website-link:hover {
   opacity: 0.8;
-  -webkit-transition: all 0.5s linear;
-  transition: all 0.5s linear;
 }

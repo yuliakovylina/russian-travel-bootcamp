@@ -1,9 +1,1 @@
-.header__lang {
-  min-height: 28px;
-}
 
-@media screen and (max-width: 320px) {
-  .header__lang {
-    min-height: 16px;
-  }
-}
