@@ -28,6 +28,7 @@
 @media screen and (max-width: 370px) {
   .place__website {
     margin-left: 16px;
+    margin-bottom: 32px;
     max-width: 288px;
   }
 }
