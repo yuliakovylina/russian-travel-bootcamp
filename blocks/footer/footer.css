@@ -3,6 +3,13 @@
   margin-right: 48px;
 }
 
+@media screen and (max-width: 768px) {
+  .footer {
+    margin-left: 24px;
+    margin-right: 24px;
+  }
+}
+
 @media screen and (max-width: 750px) {
   .footer {
     margin-left: 16px;
